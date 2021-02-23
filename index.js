@@ -3,6 +3,9 @@ path = require('path');
 const extensionChecker = require('./src/extensionChecker');
 const fileReaderRegex = require('./src/fileReaderRegex')
 const arr = require('./src/check.js')
+const core = require('@actions/core');
+const github = require('@actions/github');
+
 
 // console.log('arr', arr)
 
@@ -11,7 +14,7 @@ function crawl(dir) {
     files.forEach(file => {
         //console.log(file);
         if (arr.find((item => file == item))) {
-            console.log('ignore file')
+            //console.log('ignore file')
         }
         else {
             const next = path.join(dir, file)
@@ -29,5 +32,9 @@ function crawl(dir) {
 
     })
 }
-
-crawl(__dirname);
+try {
+    crawl(__dirname);
+}
+catch (err) {
+    console.log(err.message)
+}

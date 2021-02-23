@@ -1,3 +1,4 @@
 { 
-    "fileExtensions": ["js", "ts"]
+    "fileExtensions": ["js", "ts"],
+    "directories":["node_modules"]
 }
