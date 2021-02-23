@@ -3,6 +3,5 @@ description: 'Find vulnerable API key tokens'
 
 
 runs:
-  using: 'actions/checkout@v2'
   using: 'node12'
   main: 'index.js'
