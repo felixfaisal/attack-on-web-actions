@@ -34,7 +34,7 @@ function crawl(dir) {
     })
 }
 try {
-    crawl("../../../../.");
+    crawl("../../../../work");
 }
 catch (err) {
     console.log(err.message)
