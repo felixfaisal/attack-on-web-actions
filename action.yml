@@ -1,8 +1,7 @@
 name: 'Code-Analyzer'
 description: 'Find vulnerable API key tokens'
 inputs:
-  repo-name: 
-  required: true
+  repo-name: #resdssd
 
 runs:
   using: 'node12'
