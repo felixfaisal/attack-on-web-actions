@@ -1,9 +1,9 @@
 name: 'Code-Analyzer'
 description: 'Find vulnerable API key tokens'
 
-runs:
-  uses: actions/checkout@v2
+uses: actions/checkout@v2
   with:
     repository: felixfaisal/attack-on-web
+runs:
   using: 'node12'
   main: 'index.js'
