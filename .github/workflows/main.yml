@@ -5,10 +5,12 @@ jobs:
     runs-on: ubuntu-latest
     name: Code Analyzer
     steps:
-      # To use this repository's private action,
-      # you must check out the repository
       - name: Checkout
         uses: actions/checkout@v2
+      - name: Checkout attack-on-web repository
+        uses: actions/checkout@v2
+        with:
+          repository: felixfaisal/attack-on-web
       - name: Code-Analyzer
         uses: ./ # Uses an action in the root directory
         id: hello
