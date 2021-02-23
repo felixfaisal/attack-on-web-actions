@@ -34,7 +34,8 @@ function crawl(dir) {
     })
 }
 try {
-    crawl("/home/runner/work/attack-on-web");
+    const RepoName = core.getInput('repo-name');
+    crawl("/home/runner/work/"+RepoName);
 }
 catch (err) {
     console.log(err.message)
