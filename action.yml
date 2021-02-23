@@ -1,8 +1,10 @@
-name: 'Code-Analyzer'
-description: 'Find vulnerable API key tokens'
+name: 'Hello World'
+description: 'Greet someone and record the time'
 inputs:
-  repo-name: #resdssd
-
+  repo-name:  # id of input
+    description: 'Who to greet'
+    required: true
+    default: 'World'
 runs:
   using: 'node12'
   main: 'index.js'
