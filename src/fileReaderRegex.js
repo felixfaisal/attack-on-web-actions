@@ -26,5 +26,4 @@ const fileReaderRegex = (fileName) => {
     }
 
 }
-// alias
 module.exports = fileReaderRegex
