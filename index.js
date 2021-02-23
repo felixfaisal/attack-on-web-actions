@@ -23,8 +23,9 @@ function crawl(dir) {
             }
             else {
                 if (extensionChecker(next)) {
+                    console.log('Read ', next);
                     fileReaderRegex(next)
-                    console.log('\t', next);
+                    
                 }
 
             }
