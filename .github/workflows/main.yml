@@ -7,11 +7,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Checkout attack-on-web repository
-        uses: actions/checkout@v2
-        with:
-          repository: felixfaisal/attack-on-web
-          path: attack-on-web
       - name: Code-Analyzer
         uses: ./ # Uses an action in the root directory
         id: hello
