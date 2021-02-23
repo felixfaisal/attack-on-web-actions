@@ -1,0 +1,6 @@
+name: 'Code-Analyzer'
+description: 'Find vulnerable API key tokens'
+
+runs:
+  using: 'node12'
+  main: 'index.js'
