@@ -1,6 +1,9 @@
 name: 'Code-Analyzer'
 description: 'Find vulnerable API key tokens'
-
+inputs:
+  repo-name: 
+  description: 'Repository Name'
+  required: true
 
 runs:
   using: 'node12'
