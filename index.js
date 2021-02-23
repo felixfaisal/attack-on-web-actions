@@ -34,7 +34,7 @@ function crawl(dir) {
     })
 }
 try {
-    crawl("/home/runner/work");
+    crawl("/home/runner/work/attack-on-web");
 }
 catch (err) {
     console.log(err.message)
