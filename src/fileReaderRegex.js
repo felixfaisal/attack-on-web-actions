@@ -13,8 +13,8 @@ const fileReaderRegex = (fileName) => {
             //console.log(regex)
             if (regex.test(data[x]) == true) {
                 flag = 1;
-                console.log(element.provider)
-                console.log(fileName)
+                console.log(element.provider + " Found in " + fileName)
+                // console.log(fileName)
                 console.log(x, data[x])
                 return
             }
@@ -26,4 +26,5 @@ const fileReaderRegex = (fileName) => {
     }
 
 }
+// alias
 module.exports = fileReaderRegex
