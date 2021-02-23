@@ -10,6 +10,6 @@ jobs:
       - name: Code-Analyzer
         uses: ./ # Uses an action in the root directory
         with:
-          repo-name: attack-on-web-actions
+          repo-name: 'attack-on-web-actions'
         id: hello
       # Use the output from the `hello` step
