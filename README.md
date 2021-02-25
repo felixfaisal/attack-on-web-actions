@@ -1,5 +1,5 @@
 # Attack on Web Action
-
+![img](https://img.shields.io/github/workflow/status/felixfaisal/attack-on-web-actions/analyzer?style=for-the-badge)<br>
 This action looks for vulnerable code inside your repository that could be potential data leak such as API keys <br>
 We check for API keys of around 25 providers 
 
