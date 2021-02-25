@@ -1,7 +1,7 @@
 name: 'Attack on Web'
 description: 'Look for vulnerable API keys inside repository"
 inputs:
-  repo-name:  # id of input
+    repo-name:  # id of input
     description: 'Repository Name'
     required: true
     default: 'work'
