@@ -12,6 +12,6 @@ The name of the repository where you are calling this actions
 
 ## Example usage
 
-`uses: felixfaisal/attack-on-web-actions@v1.9
+```uses: felixfaisal/attack-on-web-actions@v1.9
 with:
-  repo-name: 'my-repo'`
+  repo-name: 'my-repo'```
