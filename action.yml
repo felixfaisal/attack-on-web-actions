@@ -4,7 +4,7 @@ inputs:
   repo-name:  # id of input
     description: 'Repository Name'
     required: true
-    default: 'Error'
+    default: 'work'
 runs:
   using: 'node12'
   main: 'index.js'
