@@ -2,6 +2,7 @@
 
 ![img](https://img.shields.io/github/workflow/status/felixfaisal/attack-on-web-actions/analyzer?style=for-the-badge)
 ![img](https://img.shields.io/github/languages/code-size/felixfaisal/attack-on-web-actions?style=for-the-badge)
+![img](https://img.shields.io/github/stars/felixfaisal/attack-on-web-actions?style=social)
 
 
 This action looks for vulnerable code inside your repository that could be potential data leak such as API keys <br>
