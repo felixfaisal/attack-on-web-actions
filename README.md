@@ -1,6 +1,6 @@
 # Attack on Web Action
 
-This action looks for vulnerable code inside your repository that could be potential data leak such as API keys 
+This action looks for vulnerable code inside your repository that could be potential data leak such as API keys <br>
 We check for API keys of around 25 providers 
 
 ## Inputs
