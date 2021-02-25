@@ -1,21 +1,17 @@
-# Hello world javascript action
+# Attack on Web Action
 
-This action prints "Hello World" or "Hello" + the name of a person to greet to the log.
+This action looks for vulnerable code inside your repository that could be potential data leak such as API keys 
+We check for API keys of around 25 providers 
 
 ## Inputs
 
-### `who-to-greet`
+# `repo-name`
+The name of the repository where you are calling this actions 
 
-**Required** The name of the person to greet. Default `"World"`.
-
-## Outputs
-
-### `time`
-
-The time we greeted you.
+**Required** This input is required for the action to run
 
 ## Example usage
 
-uses: actions/hello-world-javascript-action@v1.1
+`uses: felixfaisal/attack-on-web-actions@v1.9
 with:
-  who-to-greet: 'Mona the Octocat'
+  repo-name: 'my-repo'`
