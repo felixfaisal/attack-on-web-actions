@@ -15,4 +15,5 @@ The name of the repository where you are calling this actions
 ```
 uses: felixfaisal/attack-on-web-actions@v1.9
 with:
-  repo-name: 'my-repo'```
+  repo-name: 'my-repo'
+```
