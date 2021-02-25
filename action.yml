@@ -1,10 +1,10 @@
-name: 'Hello World'
-description: 'Greet someone and record the time'
+name: 'Attack on Web'
+description: 'Look for vulnerable API keys inside repository"
 inputs:
   repo-name:  # id of input
-    description: 'Who to greet'
+    description: 'Repository Name'
     required: true
-    default: 'World'
+    default: 'Error'
 runs:
   using: 'node12'
   main: 'index.js'
