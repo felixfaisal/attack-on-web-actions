@@ -5,6 +5,10 @@ inputs:
     description: 'repo name'
     required: true
     default: 'World'
+branding:
+  icon: 'check'  
+  color: 'green'
+
 
 runs:
   using: 'node12'
