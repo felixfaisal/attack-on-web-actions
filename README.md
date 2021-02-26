@@ -1,4 +1,5 @@
-# Attack on Web Action
+
+![AoW](https://i.imgur.com/XLc696Q.gif)
 
 ![img](https://img.shields.io/github/workflow/status/felixfaisal/attack-on-web-actions/analyzer?style=for-the-badge)
 ![img](https://img.shields.io/github/languages/code-size/felixfaisal/attack-on-web-actions?style=for-the-badge)
